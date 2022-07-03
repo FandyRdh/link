@@ -189,13 +189,6 @@ body{
     z-index: 0;
 }
 
-
-/*  */
-.content-2:hover , .content-3:hover{
-    border: 1px solid #FAFBFB;
-    /* box-shadow:0px 0px 0px 10px #FAFBFB inset; */
-}
-
 /* footer */
 .footer{
     background-color: #16151A;
@@ -213,7 +206,7 @@ body{
 }
 
 .footer span{
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #2CB57D;
 }
 
@@ -223,13 +216,12 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    body{
-        padding: 0 10px;
-    }
+
 
     .main{
         width: 100%;
         margin: 20px auto 20px;
+        padding: 0 12px;
     }
 
     .sosmed-group{
@@ -244,6 +236,8 @@ body{
         border: none;
         /* box-shadow:0px 0px 0px 10px #FAFBFB inset; */
     }
+
+
 
 
 }
