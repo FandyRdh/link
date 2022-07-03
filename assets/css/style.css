@@ -235,10 +235,15 @@ body{
     .sosmed-group{
         width: 100%;
     }
-    
+    .sosmed{
+        width: 47px;
+        height: 47px;
+    }
 
     .content-2:hover , .content-3:hover{
         border: none;
         /* box-shadow:0px 0px 0px 10px #FAFBFB inset; */
     }
+
+
 }
