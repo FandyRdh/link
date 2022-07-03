@@ -280,5 +280,9 @@ body{
         line-height: 25px;
     }
 
+    .text-desc{
+        text-shadow: 2px 2px 3px rgba(55, 55, 55, 0.515);
+    }
+
 
 }
